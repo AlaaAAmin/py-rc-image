@@ -10,7 +10,7 @@ COPY requirements.txt /app
 RUN apk update && apk add --no-cache redis && pip install --no-cache-dir -r requirements.txt
 
 #copying code
-COPY . .
+COPY ./app/ .
 
 EXPOSE 8000
 

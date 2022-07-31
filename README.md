@@ -9,14 +9,13 @@
 
 1. Forked the app code from https://github.com/tradebyte/DevOps-Challenge
 2. Created a Dockerfile for the image  
-![](pics/dockerfile.png "The dockerfile")
+![](pics/docker.png "The dockerfile")
 3. Created .dockerignore file to ignore unimportant files from getting containerized  
 ![](pics/ignore.png ".dockerignore")  
 4. Created run.sh the startup script in the docker image  
 ![](pics/run.png "run script")
-5. Built the image `docker image build -t reload-count-tornado-py-app:v1.0.2alpine .`
-6. Tagged the image `docker tag reload-count-tornado-py-app:v1.0.1alpine alaaamin/reload-count-tornado-py-app:v1.0.1alpine`
-7. Pushed the image to docker hub using `docker push alaaamin/reload-count-tornado-py-app:v1.0.1alpine` [Docker hub](https://hub.docker.com/r/alaaamin/reload-count-tornado-py-app)
+5. Built the image `docker image build -t alaaamin/reload-count-tornado-py-app:v1.0.2alpine .`
+6. Pushed the image to docker hub using `docker push alaaamin/reload-count-tornado-py-app:v1.0.2alpine` [Docker hub](https://hub.docker.com/r/alaaamin/reload-count-tornado-py-app)
 
 
 ## Requirments

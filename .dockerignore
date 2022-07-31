@@ -1,4 +1,3 @@
-.git
-tests
-LICENSE
-README.md
+./app/tests
+./app/LICENSE
+./app/README.md
