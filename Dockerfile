@@ -14,4 +14,9 @@ COPY ./app/ .
 
 EXPOSE 8000
 
+# Add non-root user
+RUN addgroup -S py-rc && adduser -S py-rc -G py-rc
+
+USER py-rc
+
 CMD [ "./run.sh" ]
