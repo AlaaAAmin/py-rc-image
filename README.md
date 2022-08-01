@@ -14,8 +14,8 @@
 ![](pics/ignore.png ".dockerignore")  
 4. Created run.sh the startup script in the docker image  
 ![](pics/run.png "run script")
-5. Built the image `docker image build -t alaaamin/reload-count-tornado-py-app:v1.0.2alpine .`
-6. Pushed the image to docker hub using `docker push alaaamin/reload-count-tornado-py-app:v1.0.2alpine` [Docker hub](https://hub.docker.com/r/alaaamin/reload-count-tornado-py-app)
+5. Built the image `docker image build -t alaaamin/reload-count-tornado-py-app:v1.1.0alpine .`
+6. Pushed the image to docker hub using `docker push alaaamin/reload-count-tornado-py-app:v1.1.0alpine` [Docker hub](https://hub.docker.com/r/alaaamin/reload-count-tornado-py-app)
 
 
 ## Requirments
