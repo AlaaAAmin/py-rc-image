@@ -10,15 +10,11 @@ pipeline {
             }   
         }
         stage('Pushing the image to docker hub') {
-            steps {
-                // Docker hub access token credentials
-                withCredentials([usernamePassword(credentialsId: 'docker-hub-acc-token', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]){
-                
+            steps {                
                 // pushing the image
                 sh '''
                     docker push alaaamin/reload-count-tornado-py-app
                 '''
-                }
             }
         }
 
