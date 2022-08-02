@@ -21,6 +21,7 @@
 ## Requirments
 
 1. Docker running on a linux os. or if you're using windows or MacOS you need it configured to run linux containers
+2. Jenkins if you want to automate building and deployment of the image
 
 
 ## Author
