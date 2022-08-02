@@ -26,5 +26,12 @@ pipeline {
                 '''
             }
         }
+        stage('service external ip'){
+            steps{
+                sh ''' 
+                    kubectl get svc py-tornado-rc-svc
+                '''
+            }
+        }
     }
 }
