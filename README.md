@@ -16,6 +16,8 @@
 ![](pics/run.png "run script")
 5. Image repository [Docker hub](https://hub.docker.com/r/alaaamin/reload-count-tornado-py-app)
 6. Created Jenkinsfile for jenkins pipeline
+7. Made GitHub webhook to trigger the pipeline automatically on new push events  
+![](pics/webhook.png "web hook")
 
 
 ## Requirments
