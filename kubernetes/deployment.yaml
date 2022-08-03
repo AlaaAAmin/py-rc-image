@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: py-rc-container
-          image: docker.io/alaaamin/reload-count-tornado-py-app:v1.1.0alpine
+          image: docker.io/alaaamin/reload-count-tornado-py-app
           ports:
             - name: http
               containerPort: 8000
