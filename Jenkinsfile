@@ -17,7 +17,6 @@ pipeline {
                 '''
             }
         }
-
         stage('Deploying to the cluster'){
             steps{
                 sh ''' 
