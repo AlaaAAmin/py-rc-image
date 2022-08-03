@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
         - name: py-rc-container
+          imagePullPolicy: Always
           image: docker.io/alaaamin/reload-count-tornado-py-app
           ports:
             - name: http
