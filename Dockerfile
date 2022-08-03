@@ -12,6 +12,8 @@ RUN apk update && apk add --no-cache redis && pip install --no-cache-dir -r requ
 #copying code
 COPY ./app/ .
 
+RUN chmod 755 hello.py run.sh
+
 EXPOSE 8000
 
 # Add non-root user
