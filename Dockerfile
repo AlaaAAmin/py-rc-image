@@ -12,6 +12,7 @@ RUN apk update && apk add --no-cache redis && pip install --no-cache-dir -r requ
 #copying code
 COPY ./app/ .
 
+# changing permssions to be able to run them with the non root user
 RUN chmod 755 hello.py run.sh
 
 EXPOSE 8000
